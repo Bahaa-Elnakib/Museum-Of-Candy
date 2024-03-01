@@ -1,0 +1,65 @@
+body {
+    background-color: #f5d9d5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#bob .navbar-brand {
+    color: #ea1c2c;
+    font-size: 1.5rem;
+}
+
+
+.nav-link {
+    font-size: 1rem;
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+    /* text-decoration: solid #ffdead underline; */
+    color: #ea1c2c;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+
+}
+
+#slash span {
+    color: red;
+}
+
+#slash h2 {
+    font-weight: 100;
+}
+
+#Lorem {
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: #f498b8;
+    line-height: 1.5;
+}
+
+@media(max-width:1200PX) {
+    #slash h2 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+
+    #Lorem {
+        font-weight: 100;
+        font-size: 1.5rem;
+    }
+
+    #lolli {
+        padding-top: 3em;
+        padding-bottom: 0;
+    }
+}
+
+#lolli {
+    color: red;
+}
